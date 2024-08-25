@@ -5,8 +5,8 @@ from codecs import encode
 
 # Database connection 
 db_config = {
-    'user': 'admin',
-    'password': 'Admin123',
+    'user': 'DB_USERNAME',
+    'password': 'DB_PASSWORD',
     'host': 'localhost',
     'database': 'openmrs'
 }
@@ -15,8 +15,8 @@ db_config = {
 api_config = {
     'api_host': "my.kudisms.net",
     'api_endpoint': "/api/corporate",
-    'api_key': "Dxdp9eQtZrgTGaqciLl3BE4J6mhXPFsHRIn01NO8y2zfkbYKvUSVMCAwo75uWj",
-    'sender_id': "AbiaHealth"
+    'api_key': "Your_API_KEY",
+    'sender_id': "YOUR_APPROVED_SENDER_ID"
 }
 
 
